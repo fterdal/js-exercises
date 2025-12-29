@@ -12,16 +12,19 @@ A collection of JavaScript exercises covering fundamental concepts with Jest tes
 ## Setup
 
 1. Install dependencies:
+
 ```bash
 npm install
 ```
 
 2. Run all tests:
+
 ```bash
 npm test
 ```
 
 3. Run tests in watch mode:
+
 ```bash
 npm run test:watch
 ```
@@ -29,12 +32,14 @@ npm run test:watch
 ## Structure
 
 Each topic has its own directory under `exercises/`:
+
 - `exercises/array-methods/` - Array method exercises
 - `exercises/promises-async/` - Promise and async/await exercises
 - `exercises/classes-this/` - Class and `this` keyword exercises
 - `exercises/generators/` - Generator function exercises
 
 Each directory contains:
+
 - `problems.js` - Functions to implement (with TODO comments)
 - `problems.test.js` - Jest tests for the problems
 
@@ -51,10 +56,10 @@ Each directory contains:
 ## Running Specific Tests
 
 Run tests for a specific topic:
+
 ```bash
 npm test exercises/array-methods
 npm test exercises/promises-async
 npm test exercises/classes-this
 npm test exercises/generators
 ```
-

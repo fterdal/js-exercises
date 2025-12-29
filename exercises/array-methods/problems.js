@@ -1,13 +1,13 @@
 /**
  * ARRAY METHODS EXERCISES
- * 
+ *
  * Complete the following functions. Each function should use array methods
  * (map, filter, reduce, forEach, find, some, every, etc.) to solve the problem.
  */
 
 /**
  * Exercise 1: Double all numbers in an array
- * 
+ *
  * @param {number[]} numbers - Array of numbers
  * @returns {number[]} - Array with each number doubled
  */
@@ -17,7 +17,7 @@ function doubleNumbers(numbers) {
 
 /**
  * Exercise 2: Filter out all even numbers
- * 
+ *
  * @param {number[]} numbers - Array of numbers
  * @returns {number[]} - Array containing only odd numbers
  */
@@ -27,7 +27,7 @@ function filterOddNumbers(numbers) {
 
 /**
  * Exercise 3: Calculate the sum of all numbers
- * 
+ *
  * @param {number[]} numbers - Array of numbers
  * @returns {number} - Sum of all numbers
  */
@@ -37,7 +37,7 @@ function sumNumbers(numbers) {
 
 /**
  * Exercise 4: Get all names of people older than 18
- * 
+ *
  * @param {Object[]} people - Array of person objects with {name: string, age: number}
  * @returns {string[]} - Array of names of people older than 18
  */
@@ -47,7 +47,7 @@ function getAdultNames(people) {
 
 /**
  * Exercise 5: Check if all numbers are positive
- * 
+ *
  * @param {number[]} numbers - Array of numbers
  * @returns {boolean} - True if all numbers are positive, false otherwise
  */
@@ -57,7 +57,7 @@ function allPositive(numbers) {
 
 /**
  * Exercise 6: Find the first person with age greater than 30
- * 
+ *
  * @param {Object[]} people - Array of person objects with {name: string, age: number}
  * @returns {Object|null} - First person with age > 30, or null if none found
  */
@@ -67,7 +67,7 @@ function findPersonOver30(people) {
 
 /**
  * Exercise 7: Transform array of strings to array of objects
- * 
+ *
  * @param {string[]} words - Array of words
  * @returns {Object[]} - Array of objects with {word: string, length: number}
  */
@@ -77,7 +77,7 @@ function wordsToObjects(words) {
 
 /**
  * Exercise 8: Calculate average age
- * 
+ *
  * @param {Object[]} people - Array of person objects with {name: string, age: number}
  * @returns {number} - Average age (rounded to 2 decimal places)
  */
@@ -87,7 +87,7 @@ function averageAge(people) {
 
 /**
  * Exercise 9: Group people by age range
- * 
+ *
  * @param {Object[]} people - Array of person objects with {name: string, age: number}
  * @returns {Object} - Object with keys 'young' (age < 30), 'middle' (30-50), 'old' (age > 50)
  */
@@ -97,7 +97,7 @@ function groupByAgeRange(people) {
 
 /**
  * Exercise 10: Flatten nested arrays
- * 
+ *
  * @param {Array[]} arrays - Array of arrays
  * @returns {Array} - Single flattened array
  */
@@ -117,4 +117,3 @@ module.exports = {
   groupByAgeRange,
   flattenArrays,
 };
-
