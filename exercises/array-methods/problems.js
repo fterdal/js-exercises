@@ -24,6 +24,7 @@ function doubleNumbers(numbers) {
  */
 function filterOddNumbers(numbers) {
   // TODO: Implement using filter
+  return numbers.filter((num) => num % 2 !== 0);
 }
 
 /**

@@ -17,25 +17,25 @@ describe("Array Methods Exercises", () => {
       expect(doubleNumbers([1, 2, 3, 4])).toEqual([2, 4, 6, 8]);
     });
 
-    xtest("should handle empty array", () => {
+    test("should handle empty array", () => {
       expect(doubleNumbers([])).toEqual([]);
     });
 
-    xtest("should handle negative numbers", () => {
+    test("should handle negative numbers", () => {
       expect(doubleNumbers([-1, -2, 3])).toEqual([-2, -4, 6]);
     });
   });
 
   describe("filterOddNumbers", () => {
-    xtest("should filter out even numbers", () => {
+    test("should filter out even numbers", () => {
       expect(filterOddNumbers([1, 2, 3, 4, 5, 6])).toEqual([1, 3, 5]);
     });
 
-    xtest("should handle empty array", () => {
+    test("should handle empty array", () => {
       expect(filterOddNumbers([])).toEqual([]);
     });
 
-    xtest("should return empty array if all numbers are even", () => {
+    test("should return empty array if all numbers are even", () => {
       expect(filterOddNumbers([2, 4, 6, 8])).toEqual([]);
     });
   });
