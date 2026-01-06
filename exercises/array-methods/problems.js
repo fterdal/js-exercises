@@ -13,6 +13,7 @@
  */
 function doubleNumbers(numbers) {
   // TODO: Implement using map
+  return numbers.map((num) => num * 2);
 }
 
 /**
